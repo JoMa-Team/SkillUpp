@@ -1,0 +1,32 @@
+@import '../../../styles/settings.scss';
+
+.main_wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.buttons_wrapper {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.lottie_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 50px;
+}
+
+.lottie_wrapper img {
+	width: 60vw;
+	margin-left: 18vw;
+	padding-top: 30px;
+}
+
+.text_wrapper p {
+	font-size: 1.6 * $base-size;
+}
