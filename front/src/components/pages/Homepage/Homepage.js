@@ -1,15 +1,30 @@
 import { Link } from 'react-router-dom';
+import Button from '../../common/Button/Button';
+import LottieBook from '../../common/LottieBook/LottieBook';
+import styles from './Homepage.module.scss';
+import logo from '../../../assets/logo-text.png';
 
 const Homepage = () => {
 	return (
-		<div>
-			<Link to='login'>
-				<button>Login</button>
-			</Link>
-			<Link to='signup'>
-				<button>Signup</button>
-			</Link>
-		</div>
+		<main>
+			<div className={styles.main_wrapper}>
+				<div className={styles.lottie_wrapper}>
+					<LottieBook />
+					<img src={logo} alt='skillUpp logo' />
+				</div>
+				<div className={styles.text_wrapper}>
+					<p>A sentence explaining the app.</p>
+				</div>
+				<div className={styles.buttons_wrapper}>
+					<Link to='login'>
+						<Button>Log In</Button>
+					</Link>
+					<Link to='signup'>
+						<Button>Sign Up</Button>
+					</Link>
+				</div>
+			</div>
+		</main>
 	);
 };
 
