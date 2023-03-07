@@ -24,3 +24,7 @@
 13. Add lottie as a new component - I checked docs and was able to use it
     as a json format - I created lotties folder and saved json file there.
     Check LottieBook.js component.
+
+14. Add styling to form using flexbox.
+15. Add scss files for RWD (breakpoints and mixins).
+16. Styling is done for mobile until now (mobile first approach).

@@ -1,0 +1,23 @@
+@import '../../../styles/settings.scss';
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_wrapper {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.loginInput {
+	margin-bottom: 10px;
+}
+
+.loginButton_wrapper {
+	margin-top: 30px;
+}
