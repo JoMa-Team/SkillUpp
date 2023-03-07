@@ -1,0 +1,9 @@
+1. npm init (creates package.json);
+2. npm install (package-lock);
+3. npm install nodemon, mongoose, mongodb, dotenv, passport;
+4. create server.js file;
+5. create database on mongodb.com;
+6. create config folder;
+7. create .env file, set port and db string, ignore .env file;
+8. create database.js file, connect DB;
+9. set up port and db in server.js;
