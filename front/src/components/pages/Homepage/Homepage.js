@@ -10,9 +10,9 @@ const Homepage = () => {
 			<div className={styles.main_wrapper}>
 				<div className={styles.lottie_wrapper}>
 					<LottieBook />
-					<img src={logo} alt='skillUpp logo' />
 				</div>
 				<div className={styles.text_wrapper}>
+					<img src={logo} alt='skillUpp logo' />
 					<p>A sentence explaining the app.</p>
 				</div>
 				<div className={styles.buttons_wrapper}>
